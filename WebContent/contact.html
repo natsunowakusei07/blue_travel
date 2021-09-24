@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<title>ブルートラベル株式会社</title>
+<link href="style.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="wrap">
+		<header>
+			<h1>
+				<a href="index.html">BL<span>U</span>E TRAVEL
+				</a>
+			</h1>
+			<nav>
+				<ul>
+					<li><a href="index.html">ホーム</a></li>
+					<li><a href="#">オススメ</a></li>
+					<li><a href="#">会社概要</a></li>
+					<li class="gray">お問い合わせ</li>
+				</ul>
+			</nav>
+		</header>
+		<div id="contents">
+			<div id="contact">
+				<form method="post" action="">
+					<table>
+						<tr>
+							<th>お名前</th>
+							<td><input type="text" name="name" size="40"
+								placeholder="山田　太郎" /> <span class="required">[必須]</span></td>
+						</tr>
+						<tr>
+							<th>フリガナ</th>
+							<td><input type="text" name="kana" size="40"
+								placeholder="ヤマダ タロウ" /> <span class="required">[必須]</span></td>
+						</tr>
+						<tr>
+							<th>メールアドレス</th>
+							<td><input type="text" name="email" size="40"
+								placeholder="yamada@blue.com" /> <span class="required">[必須]</span></td>
+						</tr>
+						<tr>
+							<th>住所</th>
+							<td><textarea name="address" rows="5" cols="40"></textarea></td>
+						</tr>
+						<tr>
+							<th>お問い合わせ内容</th>
+							<td><textarea name="inquiry" rows="5" cols="40"></textarea></td>
+						</tr>
+					</table>
+					<p id="btn">
+						<input type="submit" value="送信する" />
+					</p>
+				</form>
+			</div>
+			<aside>
+				<img src="image/banner1.jpg"> <img src="image/banner2.jpg">
+			</aside>
+		</div>
+		<footer>
+			<p id="copy">
+				<small>Copyright &copy; 2018 Blue Travel, Inc. All Rights
+					Reserved. </small>
+			</p>
+		</footer>
+	</div>
+</body>
+</html>
